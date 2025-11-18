@@ -158,11 +158,7 @@ justify-content: center;
 /*ödev3*/
 
 
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 .page-section1 {
   display: flex;
@@ -251,10 +247,13 @@ address {
 
 .section1 {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-}
+
+
 
 .section2 {
   background-color: #f4f4fd;
