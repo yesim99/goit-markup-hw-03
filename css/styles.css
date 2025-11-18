@@ -2,8 +2,9 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  max-width: 1440px;
 }
+
+
 h1,
 h2,
 h3,
@@ -11,6 +12,10 @@ p,
 ul {
   margin: 0;
   padding: 0;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 /* Kodun geri kalanı */
@@ -66,9 +71,9 @@ body {
   margin-left: 76px;
   margin-right: 332px;
   list-style-type: none;
-  align-items: flex-start;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  justify-content: space-around;
+  padding-bottom: 24px;
+  padding-top: 24px;
 
 }
 
@@ -126,7 +131,7 @@ justify-content: center;
   gap: 0;
   margin-top: 24px;
   margin-bottom: 24px;
-  margin-left: 156px;
+ justify-content: space-around;
 
 
 }
@@ -154,17 +159,18 @@ justify-content: center;
 
 
 .section {
-  padding-bottom: 120px;
-  padding-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .page-section1 {
   display: flex;
-  margin-left: 156px;
-  margin-right: 156px;
+  padding-left: 156px;
+  padding-right: 156px;
   list-style-type: none;
   justify-content: space-between;
-  gap: 8px;
+  gap: 24px;
 }
 
 .section2 {
@@ -228,8 +234,8 @@ address {
 
 .address1 {
   color: #434455;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
 
 
@@ -237,8 +243,8 @@ address {
 
 .address2 {
   color: #434455;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   width: 153px;
 
 }
