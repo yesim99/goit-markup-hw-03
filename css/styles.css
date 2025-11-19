@@ -181,7 +181,7 @@ body {
   display: flex;
     padding-bottom: 32px;
     list-style-type: none;
-    justify-content: flex-start;
+    justify-content: space-around;
     border-radius: mixed;
     flex-wrap: wrap;
     row-gap: 48px;
