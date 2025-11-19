@@ -33,8 +33,7 @@ body {
   line-height: 1.071;
   color: white;
   margin-top: 188px;
-  margin-left: 472px;
-  margin-right: 472px;
+ text-align: center;
   width: 496px;
   height: 120px;
 }
@@ -47,10 +46,9 @@ body {
   cursor: pointer;
   gap: 10px;
   border-radius: 4px;
-  padding: 32px 16px;
+  padding: 16px 32px;
   margin-top: 48px;
-  margin-left: 636px;
-  margin-right: 635px;
+  margin-bottom: 188px;
 }
 
 .button:hover {
@@ -68,8 +66,6 @@ body {
 .page-nav {
   gap: 40px;
   display: flex;
-  margin-left: 76px;
-  margin-right: 332px;
   list-style-type: none;
   justify-content: space-around;
   padding-bottom: 24px;
@@ -106,22 +102,17 @@ body {
   font-weight: bold;
   color: #2e2f42;
   line-height: 0.9;
-  margin-left: 639px;
-  margin-right: 639px;
-  margin-bottom: 112px;
-  max-width: 162px;
-justify-content: center;
+ text-align: center;
+ margin-bottom: 72px;
 }
 .page-title2-2 {
   font-size: 36px;
     font-weight: bold;
     color: #2e2f42;
     line-height: 0.9;
-    margin-left: 611px;
-    margin-right: 611px;
-    max-width: 218px;
-    margin-top: 120px;
-    justify-content: center;
+    text-align: center;
+    margin-bottom: 72px;
+
 
 }
 
@@ -156,6 +147,10 @@ justify-content: center;
 }
 
 /*ödev3*/
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 
 
@@ -175,14 +170,11 @@ justify-content: center;
 
 .page-list {
   display: flex;
-  gap: 32px;
-  padding-bottom: 32px;
+  gap: 24px;
+  padding-bottom: 120px;
   list-style-type: none;
-  justify-content: flex-start;
+  justify-content: space-around;
   border-radius: mixed;
-  margin-right: 156px;
-  margin-left: 156px;
-  margin-bottom: 120px;
 
 }
 .page-list-portfolio {
@@ -191,13 +183,9 @@ justify-content: center;
     list-style-type: none;
     justify-content: flex-start;
     border-radius: mixed;
-    margin-right: 156px;
-    margin-left: 156px;
-    margin-bottom: 120px;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    width: 1440px;
    
 }
 
@@ -211,6 +199,7 @@ justify-content: center;
 header {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
+  justify-content: space-around;
 }
 
 .logoStudio2 {
