@@ -164,35 +164,39 @@ body {
   gap: 24px;
 }
 
-.section2 {
-  height: 732px;
-}
+
 
 .page-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: center;
   border-radius: mixed;
 
 }
 .page-list-portfolio {
   display: flex;
-    padding-bottom: 32px;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: center;
     border-radius: mixed;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
    
 }
+.Bölüm2 {
+gap: 8px;
+margin-top: 32px;
+margin-bottom: 32px;
+}
 
   .bölüm3 {
     border-bottom: 1px solid #e7e9fc ;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc ;
     gap: 8px;
-    padding: 16px 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 
 /*ödev3*/
