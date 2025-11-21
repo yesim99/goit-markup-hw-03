@@ -87,9 +87,10 @@ body {
   font-size: 20px;
   color: #2e2f42;
   line-height: 0.83;
-  margin-bottom: 8px;
+  margin-top: 32px;
 
 }
+
 
 .small-text {
   font-size: 12px;
@@ -185,17 +186,19 @@ body {
    
 }
 .Bölüm2 {
+background-color: #ffffff;
 gap: 8px;
-margin-top: 32px;
+}
+.Bölüm2 > p {
 margin-bottom: 32px;
 }
-
   .bölüm3 {
     border-bottom: 1px solid #e7e9fc ;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc ;
     gap: 8px;
-    margin-top: 32px;
+  }
+  .bölüm3 > p {
     margin-bottom: 32px;
   }
 
